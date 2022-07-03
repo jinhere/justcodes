@@ -1,1 +1,8 @@
 setup.py: 모든 파이썬 프로젝트에 있다. 뭘 하는걸까?
+
+.github/workflows: github actions(CI/CD tool like Jenkins,Travis CI)를 위한 yaml 파일들
+CI/CD란 소프트웨어 프로젝트에서 지속적으로 수행해야하는 반복 작업을 자동화시키는 것이다. 사람이 매번 반복하기 대신.
+'''GitHub Actions를 사용하면 자동으로 코드 저장소에서 어떤 이벤트(event)가 발생했을 때 특정 작업이 일어나게 하거나 주기적으로 어떤 작업들을 반복해서 실행시킬 수도 있습니다. 예를 들어, 누군가가 코드 저장소에 Pull Request를 생성하게 되면 GitHub Actions를 통해 해당 코드 변경분에 문제가 없는지 각종 검사를 진행할 수 있고요. 어떤 새로운 코드가 메인(main) 브랜치에 유입(push)되면 GitHub Actions를 통해 소프트웨어를 빌드(build)하고 상용 서버에 배포(deploy)할 수도 있습니다. 뿐만 아니라 매일 밤 특정 시각에 그날 하루에 대한 통계 데이터를 수집시킬 수도 있습니다.'''
+workflow=자동화해놓은 작업과정
+https://www.daleseo.com/github-actions-basics/
+
