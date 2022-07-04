@@ -6,3 +6,6 @@ CI/CD란 소프트웨어 프로젝트에서 지속적으로 수행해야하는 �
 workflow=자동화해놓은 작업과정
 https://www.daleseo.com/github-actions-basics/
 
+/bin= binary files
+/docs=developer's guide
+/test= unittest
